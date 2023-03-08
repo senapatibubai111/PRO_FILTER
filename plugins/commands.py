@@ -24,8 +24,7 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('🌐 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🌐', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('🎇 Lɪɴᴋᴢ 🎇', url="https://t.me/SNSxTG"),
-                    InlineKeyboardButton('💠 Bᴀᴄᴋᴜᴘ Gʀᴏᴜᴘ 💠', url=GRP_LNK)
+                    InlineKeyboardButton('🎇 Lɪɴᴋᴢ 🎇', url="https://t.me/SNSxTG")
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup)
@@ -42,10 +41,10 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('💠 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 💠', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔷 Exᴛʀᴀ Mᴏᴅꜱ', callback_data="extra"),
-                    InlineKeyboardButton('🌀 Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct')
+                    InlineKeyboardButton('🌀 Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
+                    InlineKeyboardButton('❇️ Fɪʟᴛᴇʀ', callback_data='myfilters')
                 ],[
-                    InlineKeyboardButton('❇️ Fɪʟᴛᴇʀ', callback_data='myfilters'),
+                    InlineKeyboardButton('🔷 Exᴛʀᴀ Mᴏᴅꜱ', callback_data="extra"),
                     InlineKeyboardButton('✪ Aʙᴏᴜᴛ', callback_data='about')
                 ],[
                     InlineKeyboardButton('🎆 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🎆', url=CHNL_LNK)
@@ -90,10 +89,10 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('💠 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 💠', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔷 Exᴛʀᴀ Mᴏᴅꜱ', callback_data="extra"),
-                    InlineKeyboardButton('🌀 Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct')
+                    InlineKeyboardButton('🌀 Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
+                    InlineKeyboardButton('❇️ Fɪʟᴛᴇʀ', callback_data='myfilters')
                 ],[
-                    InlineKeyboardButton('❇️ Fɪʟᴛᴇʀ', callback_data='myfilters'),
+                    InlineKeyboardButton('🔷 Exᴛʀᴀ Mᴏᴅꜱ', callback_data="extra"),
                     InlineKeyboardButton('✪ Aʙᴏᴜᴛ', callback_data='about')
                 ],[
                     InlineKeyboardButton('🎆 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🎆', url=CHNL_LNK)
