@@ -958,7 +958,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('💠 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 💠', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
                     InlineKeyboardButton('🌀 Cᴏɴɴᴇᴄᴛɪᴏɴ', callback_data='coct'),
-                    InlineKeyboardButton('❇️ Fɪʟᴛᴇʀ', callback_data='myfilters')
+                    InlineKeyboardButton('❇️ Fɪʟᴛᴇʀꜱ', callback_data='myfilters')
                 ],[
                     InlineKeyboardButton('🔷 Exᴛʀᴀ Mᴏᴅꜱ', callback_data="extra"),
                     InlineKeyboardButton('✪ Aʙᴏᴜᴛ', callback_data='about')
@@ -1021,8 +1021,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('FIʟᴛᴇʀ', callback_data='manuelfilter'),
             InlineKeyboardButton('Bᴜᴛᴛᴏɴ', callback_data='button')
         ],[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='myfilters'),
-            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start')
+            InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
