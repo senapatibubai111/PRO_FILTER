@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs Oɴʟʏ Iɴ Gʀᴏᴜᴘꜱ, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ 😍🎉</b>"""
+Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Aᴅᴅ Uɴʟɪᴍɪᴛᴇᴅ Fɪʟᴛᴇʀꜱ Iɴ Aɴʏ Gʀᴏᴜᴘ. Jᴜꜱᴛ Mᴀᴋᴇ Mᴇ Aᴅᴍɪɴ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Aɴᴅ Eɴɪᴏʏ 🎉</b>"""
 
     GRP_TXT = """<b>Tʜᴇꜱᴇ Aʀᴇ Tʜᴇ Lɪɴᴋꜱ ᴏғ Oᴜʀ Gʀᴏᴜᴘꜱ. Pʟᴇᴀꜱᴇ Jᴏɪɴ Aɴᴅ Sᴜᴘᴘᴏʀᴛ Uꜱ ❤️</b>"""
 
@@ -8,11 +8,10 @@ Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ M�
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/SNSxTG'>Tᴇᴀᴍ SNS 🇮🇳</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/TEAM_SNS_BOT'>Tᴇᴀᴍ SNS 🇮🇳</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
-✯ Bᴏᴛ Sᴇʀᴠᴇʀ: <a href='https://app.koyeb.com/'>Kᴏʏᴇʙ</a>
 ✯ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: v2.7.1 [ Sᴛᴀʙʟᴇ ]</b>"""
 
     DISC_TXT = """<b>Dɪꜱᴄʟᴀɪᴍᴇʀ Nᴏᴛᴇ :</b>
@@ -213,7 +212,7 @@ IMDb Data:
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10</b>"""
     
     ALL_FILTERS = """
-<b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
+<b>Hᴇʏ {}, Yᴏᴜ Cᴀɴ Aᴅᴅ "Iɴʟɪɴᴇ Bᴜᴛᴛᴏɴꜱ" Aɴᴅ "Tᴇxᴛ Mᴇꜱꜱᴀɢᴇꜱ" Aꜱ Fɪʟᴛᴇʀꜱ.</b>"""
     
     GFILTER_TXT = """
 <b>Wᴇʟᴄᴏᴍᴇ ᴛᴏ Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs. Gʟᴏʙᴀʟ Fɪʟᴛᴇʀs ᴀʀᴇ ᴛʜᴇ ғɪʟᴛᴇʀs sᴇᴛ ʙʏ ʙᴏᴛ ᴀᴅᴍɪɴs ᴡʜɪᴄʜ ᴡɪʟʟ ᴡᴏʀᴋ ᴏɴ ᴀʟʟ ɢʀᴏᴜᴘs.</b>
