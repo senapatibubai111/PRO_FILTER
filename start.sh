@@ -1,12 +1,12 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/senapatisachi111/DQ-the-file-donor.git /DQ-the-file-donor
+  git clone https://github.com/senapatibubai111/PRO_FILTER.git /PRO_FILTER
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
-  git clone $UPSTREAM_REPO /DQ-the-file-donor
+  git clone $UPSTREAM_REPO /PRO_FILTER
 fi
-cd /DQ-the-file-donor
+cd /PRO_FILTER
 pip3 install -U -r requirements.txt
-echo "Starting DQ-The-File-Donor...."
+echo "Starting PRO_FILTER...."
 python3 bot.py
