@@ -1018,7 +1018,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "myfilters":
         buttons = [[
-            InlineKeyboardButton('FIʟᴛᴇʀ', callback_data='manuelfilter'),
+            InlineKeyboardButton('FIʟᴛᴇʀ', callback_data='mainfilter'),
             InlineKeyboardButton('Bᴜᴛᴛᴏɴ', callback_data='button')
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
@@ -1070,9 +1070,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "manuelfilter":
+    elif query.data == "mainfilter":
         buttons = [[
-             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='filters')
+             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='myfilters')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
